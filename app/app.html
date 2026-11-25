@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Counter</title>
+    <style>
+        body {
+            background-color: #000000;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            cursor: pointer;
+            user-select: none;
+        }
+        #counter {
+            font-size: 25vw; /* رقم ضخم جداً وملائم لملء الشاشة */
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="counter">1</div>
+
+    <script>
+        let count = 1;
+
+        // زيادة العداد كل ثانية
+        setInterval(() => {
+            count++;
+            document.getElementById('counter').innerText = count;
+        }, 1000);
+
+        // الضغط بالماوس في أي مكان لتحويل الصفحة لملء الشاشة (Fullscreen)
+        document.body.addEventListener('click', () => {
+            if (!document.fullscreenElement) {
+                document.documentElement.requestFullscreen();
+            } else {
+                if (document.exitFullscreen) {
+                    document.exitFullscreen();
+                }
+            }
+        });
+    </script>
+
+</body>
+</html>

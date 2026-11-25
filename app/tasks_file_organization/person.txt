@@ -1,0 +1,6 @@
+ahmed|20
+ali|22
+tamer|50
+sif|19
+sami|15
+shaher|90

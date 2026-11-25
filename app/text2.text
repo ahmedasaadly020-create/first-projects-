@@ -1,0 +1,40 @@
+student : 1
+student : ahmed
+ID : 234
+grade : 99
+=====================
+student : 2
+student : sif
+ID : 456
+grade : 77
+=====================
+student : 1
+student : ahmed
+ID : 233
+grade : 99
+=====================
+student : 2
+student : sif
+ID : 33
+grade : 77
+=====================
+student : 3
+student : mohammed
+ID : 233
+grade : 55
+=====================
+student : 4
+student : atef
+ID : 333
+grade : 66
+=====================
+student : 5
+student : rafet
+ID : 333
+grade : 77
+=====================
+student : 6
+student : ali
+ID : 44
+grade : 11
+=====================

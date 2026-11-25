@@ -1,0 +1,10 @@
+student : 1
+student : ahmed
+ID : 2345
+grade : 99
+=====================
+student : 2
+student : ali
+ID : 5689
+grade : 88
+=====================
